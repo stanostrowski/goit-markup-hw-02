@@ -272,7 +272,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.offer-item {
+.offer-item,table {
   list-style: none;
 }
 /*.offer-pic {
