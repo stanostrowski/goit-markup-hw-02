@@ -1,289 +1,217 @@
-styles.css
-/*--Solid Colors--*/
 :root {
-  --page-color-background: #e5e5e5;
-  --page-color-white: #ffffff;
-  --page-color-black: #212121;
-  --page-color-blue: #2196f3;
-  --page-color-grey: #757575;
-  --page-color-back: #2f303a;
-  --page-color-team: #f5f4fa;
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --white: #ffffff;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
 }
 
-/*--Global Styles--*/
 body {
-  font-family: "Roboto", sans-serif;
-  /*background-color: var(--page-color-background);*/
+  font-family: Roboto, sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
 }
 
-.wrapper {
-  width: 1600px;
-  margin: auto;
-  background-color: var(--page-color-white);
-}
-
-.header {
-  padding-left: 215px;
-  height: 80px;
-}
-
-/*.main {
-    /*margin: 94px 215px 0px 215px;*/
-/*}
-/*-----FOOTER-----*/
-.footer {
-  background-color: var(--page-color-back);
-  padding: 60px 215px 60px 215px;
-}
-.address-list {
-  padding-left: 0px;
-  float: none;
-}
-.address-list-item {
-  list-style: none;
-  font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
-  padding-left: 0px;
-}
-/*.address-list-item-link {
-}*/
-.address-list-item-link:hover,
-.address-list-item-link:focus,
-.address-list-item-link:active {
-  color: var(--brand-color-white);
-}
-
-/*-----WEBSTUDIO-----*/
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  margin-top: 24px;
-  margin-right: 93px;
-  color: #000;
-  float: left;
+.link {
   text-decoration: none;
 }
-/*-----STATIC COLOR CLASSES-----*/
-.web-color {
-  color: var(--page-color-blue);
-}
-.studio-color {
-  color: var(--page-color-white);
-}
-.address-color {
-  color: var(--page-color-white);
+
+.list {
+  list-style: none;
 }
 
-/*-----NAV-----*/
-.nav-list {
-  margin-top: 32px;
-  float: left;
+/* Headlines and paragrarhs styles */
+
+.section-headline {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navyblue);
 }
 
-.nav-list-item {
-  margin-right: 46px;
-  display: inline;
+.card-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+  text-transform: capitalize;
+}
+
+.card-paragraph {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  text-transform: capitalize;
+}
+
+/* Header navigation styles */
+
+.link-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  font-weight: 800;
+  color: var(--iris);
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.link-logo-top {
+  color: var(--navyblue);
 }
 
 .nav-list-item-link {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  color: var(--page-color-black);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .nav-list-item-link:hover,
-.nav-list-item-link:focus,
-.nav-list-item-link:active {
-  color: var(--page-color-blue);
+.nav-list-item-link:focus {
+  color: var(--ocean);
 }
 
-/*-----RIGHT-UP-CONTACT-----*/
-.right-up-contact {
-  margin-top: 32px;
-  margin-left: 227px;
-  float: left;
+/* Header address list styles  */
+
+.dress-list {
+  font-style: normal;
 }
 
-.right-up-contact-list {
-  margin-right: 50px;
-  display: inline;
-}
-
-.right-up-contact-list-link {
-  font-size: 14px;
-  font-weight: 500;
-  color: (var--page-color-grey);
-}
-
-.right-up-contact-list-link:hover,
-.right-up-contact-list-link:focus,
-.right-up-contact-list-link:active {
-  color: var(--page-color-blue);
-}
-
-/*-----MOTTO-----*/
-.motto {
-  height: 600px;
-  background-color: var(--page-color-back);
-  text-align: center;
-}
-.motto-frame {
-  margin: auto;
-  width: 80%;
-  padding: 200px;
-}
-.motto-text {
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 136%;
-  letter-spacing: 0.06;
-  color: var(--page-color-white);
-}
-.motto-button {
+.head-dress-link {
+  text-decoration: none;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.head-dress-link:hover,
+.head-dress-link:focus {
+  color: var(--ocean);
+}
+
+/* main section styles */
+
+.main-section {
+  background-color: var(--navyblue);
+}
+
+.main-title {
+  font-size: 56px;
+  font-style: normal;
   font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
   text-align: center;
-  width: 200px;
-  height: 50px;
+  text-transform: capitalize;
+}
+
+.basic-switch {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
   cursor: pointer;
+  color: var(--white);
+  background-color: var(--iris);
   border: none;
-  color: var(--page-color-white);
-  background-color: var(--page-color-blue);
-}
-.motto-button:hover,
-.motto-button:focus,
-.motto-button:active {
-  color: var(--page-color-black);
 }
 
-/*----- DESCRIPTION -----*/
+.basic-switch:hover,
+.basic-switch:focus {
+  background-color: var(--ocean);
+}
 
-.decription-list {
-  display: flex;
-  flex-wrap: wrap;
+/* Advantages section styles */
+
+.value-section {
+  background-color: var(--white);
 }
-.description-item {
-  display: inline-block;
-  width: 300px;
+
+/* Services section styles */
+
+.services-section {
+  background-color: var(--white);
 }
-.description-title {
+
+/* Team section styles */
+
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-list-item {
+  background-color: var(--white);
+}
+
+/* Footer styles */
+
+.page-footer {
+  background-color: var(--navyblue);
+}
+
+.link-logo-bottom {
+  color: var(--cloud);
+}
+
+.footer-paragraph {
   font-size: 16px;
-  text-transform: uppercase;
-}
-.decription-text {
-  font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
-  color: var(--page-color-grey);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
 }
 
-/*-----WHAT WE DO-----*/
-/*.whatwedo{
-}*/
-.whatwedo-title {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
+/* -------- PORTFOLIO PAGE -------- */
+.bttn-list {list-style: none;
 }
-/*.whatwedo-list {
-}*/
-.whatwedo-item {
-  display: inline-block;
-  width: 400px;
+.offer-list  {list-style: none;
 }
-/*-----TEAM-----*/
-.team {
-  margin-top: 94px;
-  padding-top: 94px;
-  background-color: var(--page-color-team);
-}
-.team-title {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.team-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.team-item-pic {
-  display: inline-block;
-  width: 300px;
-}
-.team-member {
+.bttn {
+  font-family: Roboto, sans-serif;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.team-member-desc {
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--page-color-grey);
-}
-
-.team-member:hover,
-.team-member:focus,
-.team-member:active {
-  color: var(--page-color-blue);
-}
-.team-member-desc:hover,
-.team-member-desc:focus,
-.team-member-desc:active {
-  color: var(--page-color-blue);
-}
-/*--------------PORTFOLIO-----------------------------*/
-.buttons-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.buttons-item {
-  display: inline;
-}
-.btn {
-  font-size: 16px;
-  font-weight: 500;
-  text-align: center;
-  width: 121px;
-  height: 38px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
   cursor: pointer;
-  border: none;
-  background-color: var(--page-color-team);
-}
-.btn:hover,
-.btn:focus,
-.btn:active {
-  background-color: var(--page-color-blue);
-  color: var(--page-color-white);
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
+  text-transform: capitalize;
 }
 
-.offer {
-  background-color: var(--page-color-background);
+.bttn:hover,
+.bttn:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+  border: none;
 }
-.offer-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.offer-item,table {
-  list-style: none;
-}
-/*.offer-pic {
-}*/
-.offer-pic-desc {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 36px;
-}
-.offer-pic-desc-lower {
-  font-size: 16px;
-  line-height: 30px;
-  color: var(--page-color-grey);
+
+.offer-item {
+  border: 1px solid var(--cornflower);
+  background: var(--white);
 }
