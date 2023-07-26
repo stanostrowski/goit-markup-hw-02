@@ -13,7 +13,6 @@ body {
   color: var(--slate);
   background-color: var(--white);
 }
-
 .link {
   text-decoration: none;
 }
@@ -22,11 +21,10 @@ body {
   list-style: none;
 }
 
-/* Headlines and paragrarhs styles */
+/* Headlines and paragraphs styles */
 
 .section-headline {
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -37,7 +35,6 @@ body {
 
 .card-title {
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -47,8 +44,6 @@ body {
 
 .card-paragraph {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
@@ -92,13 +87,13 @@ body {
 
 .dress-list {
   font-style: normal;
+  text-decoration: none;
 }
 
 .head-dress-link {
   text-decoration: none;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
@@ -117,7 +112,6 @@ body {
 
 .main-title {
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -129,7 +123,6 @@ body {
 .basic-switch {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -178,7 +171,6 @@ body {
 
 .footer-paragraph {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -193,22 +185,25 @@ body {
 .bttn {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
   color: var(--iris);
   background-color: var(--cloud);
-  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #E7E9FC); 
   text-transform: capitalize;
+  text-shadow: 1px
+;
 }
 
 .bttn:hover,
 .bttn:focus {
   color: var(--white);
   background-color: var(--ocean);
-  border: none;
+  border:1px solid var(--ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10); 
 }
 
 .offer-item {
