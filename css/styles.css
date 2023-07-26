@@ -130,6 +130,7 @@ body {
   color: var(--white);
   background-color: var(--iris);
   border: none;
+  text-transform: capitalize;
 }
 
 .basic-switch:hover,
