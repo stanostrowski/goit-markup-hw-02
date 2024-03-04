@@ -36,7 +36,7 @@ body {
   text-transform: capitalize;
 }
 
-.card-paragraph {
+.card-detail {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -51,18 +51,14 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.54px;
-  font-weight: 800;
-  color: var(--iris);
-
+  font-weight: 700;
+  color: #4d5ae5;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-.link-logo-top {
-  color: var(--navyblue);
-}
 
-.nav-list-item-link {
+.top-item {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -72,45 +68,33 @@ body {
   text-transform: capitalize;
 }
 
-.nav-list-item-link:hover,
-.nav-list-item-link:focus {
-  color: var(--ocean);
-}
 
 /* Header address list styles  */
 
-.dress-list {
-  font-style: normal;
-  text-decoration: none;
+.right-list {
+  list-style: none;
 }
 
-.leader-dress-list-item {
+.left-list {
+  list-style: none;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-link {
   text-decoration: none;
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.leader-dress-link2{
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--navyblue);
-  text-decoration: none;
-  
-}
-
-
-.leader-dress-link2:hover,
-.leader-dress-link2:focus {
-  color: var(--ocean);
 }
 
 /* main section styles */
 
 .main-section {
-  background-color: var(--navyblue);
+  background-color: #2e2f42;
 }
 
 .main-title {
@@ -118,28 +102,31 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: var(--white);
+  color: #ffffff;
   text-align: center;
   text-transform: capitalize;
 }
 
 .basic-switch {
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
-  color: var(--white);
-  background-color: var(--iris);
-  border: none;
+  color: #ffffff;
+  background-color: #4d5ae5;
   text-transform: capitalize;
 }
-
 .basic-switch:hover,
 .basic-switch:focus {
-  background-color: var(--ocean);
+  background-color: #404bbf;
 }
+
+.basic-switch:active {
+  background-color: #404bbf;
+}
+
 
 /* Advantages section styles */
 
