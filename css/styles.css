@@ -17,7 +17,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: var(--navyblue);
+  color:  #2e2f42;
 }
 
 .card-title {
@@ -141,10 +141,10 @@ color: #2e2f42
 /* Team section styles */
 
 .team-section {
-  background-color: var(--cloud);
+  background-color: #F4F4FD;
 }
 
-.team-list-item {
+.crew-list-item {
   background-color: #ffffff;
 }
 /* Offer section styles */
