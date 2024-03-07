@@ -12,29 +12,13 @@ body {
 /* Headlines and paragraphs styles */
 
 .section-headline {
+  color:  #2e2f42;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color:  #2e2f42;
-}
-
-.card-title {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-.card-detail {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   
- 
 }
 
 p::first-letter {
@@ -137,6 +121,22 @@ color: #2e2f42;
   background-color: var(--white);
 }
 
+.values-third-heading {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.detail-second-section {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+}
 /* Services section styles */
 
 .services-section {
@@ -144,6 +144,25 @@ color: #2e2f42;
 }
 
 /* Team section styles */
+
+.team-third-heading {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-detail-section {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
 
 .team-section {
   background-color: #F4F4FD;
@@ -156,7 +175,24 @@ color: #2e2f42;
 .list {
   list-style: none;
 }
+.third-heading-four-section {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 
+.offer-detail-four-section {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
 /* Footer styles */
 
 .page-bottom {
