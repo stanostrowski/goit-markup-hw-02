@@ -85,6 +85,11 @@ color: #2e2f42
   color:#404bbf;
   
 }
+
+.top-item:active {
+  color:#404bbf;
+  
+}
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
