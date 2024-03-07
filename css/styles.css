@@ -81,7 +81,7 @@ color: #2e2f42;
   letter-spacing: 0.02em;
 }
 .top-item:hover,
-.top-item:active {
+.top-item:focus {
   color:#404bbf;
   
 }
